@@ -1,5 +1,6 @@
 #solve palindrome problem:
 #feedback: requires user input
+#@Winterflower for help
 
 class stack():
     def __init__(self):
