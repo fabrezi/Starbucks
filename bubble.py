@@ -8,7 +8,7 @@ def bubble(list):
                 list[i] = list[i+1]
                 list[i+1] = temp
 
-list = [54,16,99,75,3]
+list = [54,16,99,75,3,90]
 bubble(list)
 print(list)
 
