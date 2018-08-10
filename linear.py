@@ -1,10 +1,4 @@
 import math
-#binary search:
-# list [2,20,15,25,55,67,75,99,100]
-#find (2)
-
-
-
 
 def linear(intlist, target):
     found = False
