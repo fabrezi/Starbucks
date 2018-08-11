@@ -1,6 +1,6 @@
 #implement bubble sort
 
-def bubble(list):
+def bubble(list):#input parameter in the bracket
     for passnum in range(len(list)-1,0,-1):#range(start,stop,step)
         for i in range(passnum):
             if list[i]>list[i+1]:
