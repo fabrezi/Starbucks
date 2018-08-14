@@ -1,10 +1,3 @@
-"""
-- class schedule
-- pending payments: healthcare
-- research: symmetry vs asymmetry, functions, 
-- Q1. what are the advantages/ disadvantages of HMT??
-"""
-
 #difference b/w bubble vs insert: 1. the number of for - loops
 def insert(A):
     for i in range(1, len(A)):
