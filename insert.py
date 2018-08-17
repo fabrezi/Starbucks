@@ -6,8 +6,8 @@ def insert(A):
         i = j -1#previous value 
         while(i>-1) & (A[i] > key):
             A[i+1] = A[i]
-            i = i -1#next item
             A[i+1] = key
+         i = i-1
     return A
 
 A = [5,2,4,6,1,3]
