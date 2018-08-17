@@ -6,7 +6,7 @@ def insert(A):
         i = j -1#previous value 
         while(i>-1) & (A[i] > key):
             A[i+1] = A[i]
-            A[i+1] = key
+            A[i] = key
          i = i-1
     return A
 
