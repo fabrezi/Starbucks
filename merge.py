@@ -34,7 +34,7 @@ def merge(left, right):
 
 
 def main():
-    array = [5, 4, 3, 2, 1]
+    array = [5,3,7,1,9,2]
     print(array)
 
     result = merge_sort(array)
