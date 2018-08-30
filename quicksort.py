@@ -1,7 +1,7 @@
 #simple implementation. requires to be fixed as it doesn't have stable sort.
 # partition is fixed. the end node. giving wrong output --> logic error
 
-ef partition(A, p , r):
+def partition(A, p , r):
     i = p - 1
     x = A[r]
     for j in range(p,r-1,1):
