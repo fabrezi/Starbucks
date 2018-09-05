@@ -1,6 +1,4 @@
-#Donald Knuth is a prophet from computing dimension
-
-#implement knuth arrow beta
+#works but get runtime errors at larger values. I should try the memoization technique
 
 
 def fib(n):
@@ -14,6 +12,6 @@ def fib(n):
 
 
 def main():
-    n = int(input("Enter the Birthday person's name: "))
+    n = int(input("Enter value beta: "))
     print(fib(n))
 main()
