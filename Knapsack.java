@@ -41,7 +41,7 @@ three main varaibles:
 
                valueAndWeights[i, 0] = 0;
 
-           for(int w=1; w=maxWeight; w++){
+           for(int w=1; w==maxWeight; w++){
                          //wi = weight
                if(wi > w){
                    valueAndWeights[i,w] = valueAndWeights[i-1,w];
