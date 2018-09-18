@@ -23,9 +23,10 @@ public class Knapsack {
 
 /*
 three main varaibles:
-- maxWeight: use to create the table
-- wi: weight of the item i
+- maxWeight: 0 <= wi <= maxWeight
+- wi: column number
 - w: index value in the table
+- i: row number
 
  */
 
