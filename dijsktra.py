@@ -1,4 +1,5 @@
 #python doesn't have a graph model package
+#work to build a dijsktra. graph model and then SSP implementation
 class Graph(object):
 
     """"constructor"""
