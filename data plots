@@ -1,8 +1,0 @@
-import pandas as pd
-import matplotlib.pyplot as plt
-
-#Histogram
-data = pd.read_csv('C:\\Users\\PC\\Desktop\\class\\CS7265\\hw1\\Book1.csv')
-data.loc[data['OS_STATUS'] == "DECEASED", "AGE"].value_counts().sort_index()
-data['AGE'].hist()
-plt.show()
