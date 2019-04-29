@@ -1,4 +1,4 @@
-import java.util.Scanner;
+//basics of OOP with use of constructors
 
 public class circle {
     public static void main(String[] args){
