@@ -18,3 +18,10 @@ print("the area of the circle:" + area)
 '''
 
 print(sum(n for n in range(1,10) if (n%3==0 or n%5==0)))
+
+#create table
+print("a", "a^2", "a^3")
+for i in range(1,10):
+    b = i*i
+    c = i*i*i
+    print(i, b, c)
