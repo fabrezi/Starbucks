@@ -25,3 +25,8 @@ for i in range(1,10):
     b = i*i
     c = i*i*i
     print(i, b, c)
+ 
+#convert farenheit to celsius:
+TF = int(input("enter temperature in farenheit:"))
+TC = (TF - 32)/1.8
+print("Celsius:" , TC)
