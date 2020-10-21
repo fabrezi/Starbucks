@@ -2,6 +2,7 @@
 #area of circle
 #E01
 
+
 '''
 i = 1
 while (i < 6):
@@ -30,3 +31,16 @@ for i in range(1,10):
 TF = int(input("enter temperature in farenheit:"))
 TC = (TF - 32)/1.8
 print("Celsius:" , TC)
+
+#population projection
+time = 3600*24*365
+born = time/7
+death = time /13
+immigrant = time/45
+
+current_population = 3120322486
+population = born + immigrant - death
+
+for i in range(1,6):
+    current_population = current_population + population
+    print(i, "yearly population:", round(current_population))
