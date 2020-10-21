@@ -1,0 +1,6 @@
+the fundamental informatin regarding python will be placed here:
+
+#############
+#data types in python:
+
+
