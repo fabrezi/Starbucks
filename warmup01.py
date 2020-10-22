@@ -44,3 +44,17 @@ population = born + immigrant - death
 for i in range(1,6):
     current_population = current_population + population
     print(i, "yearly population:", round(current_population))
+    
+#payroll
+name = input("enter the employee name:")
+work_hour = int(input("enter the number of hours worked in a week:"))
+pay_rate  = float(input("enter hourly pay rate:"))
+fed_tax = 0.20
+state_tax = 0.09
+
+gross_pay = work_hour * pay_rate
+deduction01 = gross_pay * fed_tax
+deduction02 = gross_pay * state_tax
+total_deduction = deduction01 + deduction02
+net_pay = gross_pay - total_deduction
+print(name, "earned:", net_pay)
