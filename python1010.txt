@@ -2,5 +2,5 @@ the fundamental informatin regarding python will be placed here:
 
 #############
 #data types in python:
-
+expalin the following: tuple, list, built in function (map, ???
 
