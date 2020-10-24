@@ -5,4 +5,9 @@ the fundamental informatin regarding python will be placed here:
 expalin the following: tuple, list, built in function (map, ???
 
 #recursion is imperative. a powerful technique that is subtle but impactful
+############
+python has 69 powerful built in function. this makes coding much easy as it handles the logic.
+the ones i have used:
+- sum(iterable, start), iterable == list, tuple, dict
+- map(function, iterable)
 
