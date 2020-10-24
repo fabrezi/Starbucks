@@ -58,3 +58,8 @@ deduction02 = gross_pay * state_tax
 total_deduction = deduction01 + deduction02
 net_pay = gross_pay - total_deduction
 print(name, "earned:", net_pay)
+
+#sum the digits in the integer
+number = int(input("enter the integer:"))
+bur=sum(map(int,str(number)))
+print(bur)
