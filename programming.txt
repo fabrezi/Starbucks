@@ -3,11 +3,17 @@ the fundamental informatin regarding python will be placed here:
 #############
 #data types in python:
 expalin the following: tuple, list, built in function (map, ???
-
-#recursion is imperative. a powerful technique that is subtle but impactful
 ############
 python has 69 powerful built in function. this makes coding much easy as it handles the logic.
 the ones i have used:
 - sum(iterable, start), iterable == list, tuple, dict
 - map(function, iterable)
+#########################
+Q. what is recursion?
+A. recursion is a method which invokes itself. to calculate factorial is a classic example. 
+the basic structure of recursion has three parts:
+1. base case (stop)
+2. work towards base case
+3. recursive calls
+
 
