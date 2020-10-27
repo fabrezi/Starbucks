@@ -33,3 +33,24 @@ public class hello {
 
 
 }
+
+import java.util.Scanner;
+
+public class seria {
+    //calculate the power series of 2^n +.....+2^1, use recursion
+    public static void main(String[] args){
+        Scanner input = new Scanner(System.in);
+        System.out.print("enter the number:");
+        int x = input.nextInt();
+        System.out.print("the exponent sum is:" + expo(x));
+    }
+    public static double expo(int x){
+        if(x == 0)
+            return 1;
+        else if(x==1)
+            return 2;
+        else
+            return Math.pow(2,x) + expo(x-1); 
+    }
+
+}
