@@ -1,5 +1,7 @@
 C0: intorduction to computers, programs and Java
-
+# 1 byte = 8 bits
+- one page document is roughly 20KB. 1MB can store upto 50 pages. 1GB can store 500 pages. a movie is about 8GB etc.
+- 
 C1: Elementary Program
 
 C2: Selections
