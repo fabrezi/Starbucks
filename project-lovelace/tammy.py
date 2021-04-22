@@ -53,7 +53,21 @@ if __name__=="__main__":
 
 
 #Q5
+def compound_interest(amount, rate, years):
+    #new_amount = 0
+    amount=(int(input("amount:")))
+    rate = float(input("rate:"))
+    years = int(input("years:"))
 
+    new_amount = ((amount * (1 + rate)) ** (years))
+
+    # Your code goes here!
+    print(new_amount)
+
+    return new_amount
+
+if __name__ == "__main__":
+    compound_interest(1,1,2)
 
 
 #Q6
