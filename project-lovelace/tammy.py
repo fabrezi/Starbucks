@@ -1,4 +1,5 @@
 #convert fahrenheit to celsius
+#Q1
 def fahrenheit_to_celsius():
     F = float(input("Input Fahrenheit temperature:"))
     C = (F - 32) * 5 / 9
@@ -16,7 +17,7 @@ if __name__ == '__main__':
     fahrenheit_to_celsius()
 
 
-    
+#Q2    
 '''''
 c = 299792458  # Speed of light [m/s]
 
@@ -33,3 +34,28 @@ def light_time():
 
 if __name__ == "__main__":
     light_time()
+
+
+#Q3
+
+
+#Q4
+
+
+#Q5
+
+
+
+#Q6
+
+
+#Q7
+
+
+#Q8
+
+
+#Q9
+
+
+#Q10
