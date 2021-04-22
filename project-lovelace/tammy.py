@@ -18,7 +18,7 @@ if __name__ == '__main__':
 
 
 #Q2    
-'''''
+
 c = 299792458  # Speed of light [m/s]
 
 #def main():
@@ -37,7 +37,17 @@ if __name__ == "__main__":
 
 
 #Q3
+def moose_body_mass(latitude):
+    mass = 0
+    latitude = float(input("enter the latitude value:"))
+    # Your code goes here!
+    mass = 2.75 * latitude + 16.793
+    print("output body mass:" , mass)
 
+    return mass
+
+if __name__=="__main__":
+    moose_body_mass(1)
 
 #Q4
 
