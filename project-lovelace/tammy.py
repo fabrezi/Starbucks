@@ -15,3 +15,21 @@ def fahrenheit_to_celsius():
 if __name__ == '__main__':
     fahrenheit_to_celsius()
 
+
+    
+'''''
+c = 299792458  # Speed of light [m/s]
+
+#def main():
+def light_time():
+    t = 0
+
+    distance = int(input("Input the distance travelled:"))
+    # Calculate the time taken using t = d/c and return it.
+    t = distance / c
+    print(t)
+
+    return t
+
+if __name__ == "__main__":
+    light_time()
