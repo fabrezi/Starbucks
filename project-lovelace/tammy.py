@@ -50,7 +50,26 @@ if __name__=="__main__":
     moose_body_mass(1)
 
 #Q4
+def NAND(A, B):
+    A = int(input("Input A:"))
+    B = int(input("Input B:"))
+    nand = 0
+    # Your code goes here!
+    if(A == 0 & B == 0):
+        print(1)
+    elif (A== 1 & B == 1 ):
+        print(1)
+    elif (A == 1 & B == 0):
+        print(1)
+    elif (A == 0 & B == 1):
+        print(1)
+    elif (A == 1 & B == 1):
+        print(0)
 
+    return nand
+
+if __name__ == "__main__":
+    NAND(1,2)
 
 #Q5
 def compound_interest(amount, rate, years):
