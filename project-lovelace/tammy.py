@@ -108,7 +108,34 @@ if __name__ == "__main__":
     wind_chill(1,2)
 
 #Q7
+from math import radians, sqrt, asin, sin, cos
 
+R  = 6372.1  # Radius of the Earth [km]
+
+def haversine_distance(lat1, lon1, lat2, lon2):
+    d = 0
+    # Your code goes here!
+
+    lat1 = int(input("lat1:"))
+    lon1 = int(input("long1:"))
+
+    lat2 = int(input("lat1:"))
+    lon2 = int(input("long2:"))
+
+    r1 = radians(lat1)
+    r2 = radians(lon1)
+    r3 = radians(lat2)
+    r4 = radians(lon2)
+
+
+
+    d = 2 * R * asin(sqrt(sin(r1 - r3) + cos(r1) * sin(r2 - r4)))
+
+    print(d)
+
+
+if __name__  == "__main__":
+    haversine_distance(1,2,2,3)
 
 #Q8
 
