@@ -90,7 +90,22 @@ if __name__ == "__main__":
 
 
 #Q6
+def wind_chill(T_a, v):
+    T_wc = 0
 
+    T = int(input("Input temperature:"))
+    V = int(input("Input wind speed:"))
+
+    T_wc = 13.12 + 0.62 * T + 11.37 * (V)**2
+
+    print("the wind chill is:" , T_wc)
+
+    # Your code goes here!
+
+    return T_wc
+
+if __name__ == "__main__":
+    wind_chill(1,2)
 
 #Q7
 
