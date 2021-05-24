@@ -30,7 +30,7 @@ public class fibo {
         int number_of_terms = 50;
 
         for (i=1; i <= number_of_terms; i++){
-            System.out.println( next_term);
+            System.out.println((i) + ": " + next_term);
             t1 = t2;
             t2 = next_term;
             next_term = t1 +  t2;
