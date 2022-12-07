@@ -14,8 +14,8 @@ Codeforces
 ## Java 
 
 Java is a language used to build robust, enterprise - level software. It 
-multi- OS operations, functionality and application has made it an 
-important language.
+multi-OS operations, functionality and application has made it an 
+important language. You can make a website, mobile-app, 
 
 
 Methods are the key to the logic. I tend to use the abstract methods

@@ -1,4 +1,4 @@
-package edu.kennesaw.aa;
+package Knapsack;
 
 //package main.com.manh.farid;
 
