@@ -16,6 +16,12 @@ These are the codes I write at cafes. This is mainly designed to be practice exe
 - All coding is to understand the relation of man vs machine. (Man vs machinia)
 
 
+### Task
+
+- Run the `nash.py` code??
+- 
+
+
 
 
 
