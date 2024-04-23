@@ -1,6 +1,6 @@
 # Starbucks
 
-These are the codes I write at cafes. All code is in Python. 
+These are the codes I write at cafes. This is mainly designed to be practice exercises. I see it as a meditation. `Coffee, code and cookies is all a man needs.`
 
 
 ### My Quotes About Programming
