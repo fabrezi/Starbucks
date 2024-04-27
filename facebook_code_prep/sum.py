@@ -1,10 +1,8 @@
 # sum(A+B+C)
 
-def sum(a,b,c) -> int:
-    int a = 1,
-    int b = 1,
-    int c = 1,
+def getSum(a: int,b: int,c: int) -> int:
     sum = a+b+c
     #return sum
-    print(sum)
+    getSum(1,2,3)
+    print (getSum)
     
